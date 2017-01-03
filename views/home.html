@@ -1,0 +1,26 @@
+<div class="ingredients" ng-init="loadBase()">
+	<table class="table table-bordered">
+		<th><h3>Base Recipe</h3></th>
+		<tr>
+			<td>{{baseRecipe[0]}} Eggs</td>
+		</tr>
+		<tr>
+			<td>{{baseRecipe[1]}} tbsp Sugar</td>
+		</tr>
+		<tr>
+			<td>{{baseRecipe[2]}} cups Flour</td>
+		</tr>
+		<tr>
+			<td>{{baseRecipe[3]}} cups Milk</td>
+		</tr>
+      <tr>
+        <td>{{baseRecipe[4]}} tbsp Butter</td>
+      </tr>
+		<tr>
+			<td><h4>Yield: {{baseRecipe[5]}} Crepes</h4></td>
+		</tr>
+	</table>
+</div>
+<a class="btn btn-block btn-primary" href="#/edit/"><span class="fa fa-pencil-square-o"></span> Edit Base Recipe</a>
+<a class="btn btn-block btn-primary" href="#/calculate/"><span class="fa fa-calculator"></span> Calculate New Recipe</a>
+<p>{{testRecipe}}</p>

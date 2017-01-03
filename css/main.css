@@ -1,0 +1,13 @@
+html, body {
+	height: 100%;
+}
+.bg-img-full {
+	background-image: url(../views/img/crepes.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	height: 100%;
+}
+
+.ingredients {
+	background-color: rgba(255,255,255,.5);
+}

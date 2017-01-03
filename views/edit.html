@@ -1,0 +1,34 @@
+<form class="form-horizontal" ng-init="loadBase()">
+	<div class="form-group">
+		<label class="col-sm-2 control-label" for="eggs">Eggs:</label>
+		<div class="col-sm-10">
+			<input class="form-control" id="eggs" type="number" ng-model="baseRecipe[0]"> </div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-2 control-label" for="sugar">Sugar: <small>(tbsp)</small></label>
+		<div class="col-sm-10">
+			<input class="form-control" id="sugar" type="number" ng-model="baseRecipe[1]"> </div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-2 control-label" for="flour">Flour: <small>(cups)</small></label>
+		<div class="col-sm-10">
+			<input class="form-control" id="flour" type="number" ng-model="baseRecipe[2]"> </div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-2 control-label" for="milk">Milk: <small>(cups)</small></label>
+		<div class="col-sm-10">
+			<input class="form-control" id="milk" type="number" ng-model="baseRecipe[3]"> </div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-2 control-label" for="butter">Butter: <small>(tbsp)</small></label>
+		<div class="col-sm-10">
+			<input class="form-control" id="milk" type="number" ng-model="baseRecipe[4]"> </div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-2 control-label" for="yield">Yield: <small>(total number of crepes)</small></label>
+		<div class="col-sm-10">
+			<input class="form-control" id="yield" type="number" ng-model="baseRecipe[5]"> </div>
+	</div>
+	<a class="btn btn-block btn-primary" ng-click="saveBase(); locationPath('/h')"><span class="fa fa-check"></span> Done</a>
+	<a class="btn btn-block btn-primary" ng-click="resetRecipe()"><span class="fa fa-rotate-left"></span> Reset</a>
+</form>
