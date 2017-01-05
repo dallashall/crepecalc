@@ -1,0 +1,15 @@
+<?xml verson="1.0" encoding="UTF-8" ?>
+<widget id = "com.dallashall.crepecalc"
+		version = "0.1.1">
+	
+	<name>CrepeCalce</name>
+	
+	<description>
+		Crepe recipe calculator tested up to batches of 100 crepes.
+	</description>
+	
+	<author href="https://dallashall.tech" email="dallas@dallashall.tech">
+		Dallas Hall
+	</author>
+	
+</widget>
