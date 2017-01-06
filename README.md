@@ -13,14 +13,8 @@ Assumes 1/3 Cup batter per crepe.
 ___Download these files and place them in the ```js/``` directory.___
   * AngularJS 1.3.xx (minified version)
   * AngularJS Route 1.3.xx (minified version)
-  * [Angular-ui-bootstrap 0.13.xx](https://angular-ui.github.io/bootstrap/)
   
   
 ### CSS Dependencies
 ___Download these files and place them in the ```css/``` directory.___
   * [Bootstrap 3.3.4 (minified version)](http://getbootstrap.com)
-  * [Font Awesome 4.3.0 (minified)](http://fontawesome.io)
-  
-### Font Dependencies
-___Download and place in ```fonts/``` directory.___
-  * Font Awesome webfonts

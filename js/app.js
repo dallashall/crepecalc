@@ -22,6 +22,10 @@ crepeCalcApp.config(function($routeProvider) {
 			controller: 'crepeCalcController',
 			templateUrl: 'views/results.html'
 		})
+		.when('/info', {
+			controller: 'crepeCalcController',
+			templateUrl: 'views/info.html'
+		})
 		.otherwise({
 		redirectTo: '/'
 	});

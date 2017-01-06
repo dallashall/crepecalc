@@ -1,15 +1,11 @@
-<?xml verson="1.0" encoding="UTF-8" ?>
-<widget id = "com.dallashall.crepecalc"
-		version = "0.1.1">
-	
-	<name>CrepeCalce</name>
-	
+<?xml version='1.0' encoding='UTF-8'?>
+<widget	xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.dallashall.crepecalc" version="0.1.1">
+	<name>CrepeCalc</name>
 	<description>
 		Crepe recipe calculator tested up to batches of 100 crepes.
 	</description>
-	
-	<author href="https://dallashall.tech" email="dallas@dallashall.tech">
+	<author href="https://dallashall.tech/" email="dallas@dallashall.tech">
 		Dallas Hall
 	</author>
-	
+	<preference name="phonegap-version" value="cli-6.3.0" />
 </widget>
